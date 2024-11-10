@@ -23,7 +23,9 @@ namespace Distrubuted.Caching.Controllers
             {
                 AbsoluteExpiration = DateTime.Now.AddSeconds(30),
                 SlidingExpiration = TimeSpan.FromSeconds(5),
+                
             });
+
 
             await _distrubutedCache.SetAsync("surname", Encoding.UTF8.GetBytes(surname), options: new()
             {
