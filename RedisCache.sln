@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distrubuted.Caching", "Dist
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemory.Caching", "InMemory.Caching\InMemory.Caching.csproj", "{54997ACC-941D-4264-9904-F6D0EA5444BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Publisher", "Redis.Pub.Sub\Redis.Publisher.csproj", "{F044231E-89BB-4259-B676-2B67D1901B36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Publisher", "Redis.Pub.Sub\Redis.Publisher.csproj", "{F044231E-89BB-4259-B676-2B67D1901B36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Subscriber", "Redis.Subscriber\Redis.Subscriber.csproj", "{1466930A-7F22-41BE-86D0-61E5F28931E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Subscriber", "Redis.Subscriber\Redis.Subscriber.csproj", "{1466930A-7F22-41BE-86D0-61E5F28931E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sources", "Sources\Sources.csproj", "{606945FF-95CF-4861-9668-913DB3DDDE36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Sentinel", "Redis.Sentinel\Redis.Sentinel.csproj", "{B59727F2-C187-4536-A1B0-13E2018FA6A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{1466930A-7F22-41BE-86D0-61E5F28931E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1466930A-7F22-41BE-86D0-61E5F28931E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1466930A-7F22-41BE-86D0-61E5F28931E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606945FF-95CF-4861-9668-913DB3DDDE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606945FF-95CF-4861-9668-913DB3DDDE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606945FF-95CF-4861-9668-913DB3DDDE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606945FF-95CF-4861-9668-913DB3DDDE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59727F2-C187-4536-A1B0-13E2018FA6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59727F2-C187-4536-A1B0-13E2018FA6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59727F2-C187-4536-A1B0-13E2018FA6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59727F2-C187-4536-A1B0-13E2018FA6A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
